@@ -1,5 +1,5 @@
-**简体中文** | **[English](README-en.md)** | **[Русский](README-ru.md)**
-# Gmeek
+
+# GBlog
 
 一个博客框架，超轻量级个人博客模板。完全基于`Github Pages` 、 `Github Issues` 和 `Github Actions`。不需要本地部署，从搭建到写作，只需要18秒，2步搭建好博客，第3步就是写作。
 
@@ -11,7 +11,7 @@
 
 ### 安装
 
-1. 【创建仓库】点击[通过模板创建仓库](https://github.com/new?template_name=Gmeek-template&template_owner=grd291)，建议仓库名称为`XXX.github.io`，其中`XXX`为你的github用户名。
+1. 【创建仓库】点击[通过模板创建仓库](https://github.com/new?template_name=GBlog-template&template_owner=grdnet)，建议仓库名称为`XXX.github.io`，其中`XXX`为你的github用户名。
 
 2. 【启用Pages】在仓库的`Settings`中`Pages->Build and deployment->Source`下面选择`Github Actions`。
 
@@ -19,13 +19,13 @@
 
 4. 【手动全局生成】这个步骤只有在修改`config.json`文件或者出现奇怪问题的时候，需要执行。
 ```
-通过Actions->build Gmeek->Run workflow->里面的按钮全局重新生成一次
+通过Actions->build G.R.D->Run workflow->里面的按钮全局重新生成一次
 ```
 
 ### 提交问题
 
-1. 如果有问题可参考[Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)   
-2. 在本仓库提交[Issues](https://github.com/Meekdai/Gmeek/issues)之前，请手动全局生成一次。如果还有错误，提交`Issues`后，我会帮忙查看构建流程，定位问题出处。   
+1. 如果有问题可参考[Gmeek快速上手](https://blog.grdnet.org)   
+2. 在本仓库提交[Issues](https://github.com/gednet/blog/issues)之前，请手动全局生成一次。如果还有错误，提交`Issues`后，我会帮忙查看构建流程，定位问题出处。   
 
 ### 特性
 
